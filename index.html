@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>houzez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://demo02.houzez.co/wp-content/themes/houzez/img/logo-houzez-white.png" 
+                     alt="Logo" 
+                     style="height: 25px; width: auto;" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#home" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-home"></i> Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-default/">Home Default</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-with-caption-form/">With Caption Form</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-side-search/">With Overlay Side Search</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-with-map/">With Map</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-image-banner/">With Image Banner</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-properties-slider/">With Properties Slider</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/">With Revolution Slider</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-with-video/">With Video</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-overlay-advanced-search/">Overlay Advanced Search</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home Splash</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/home-splash/?splash_type=image">Splash Image</a></li>
+                                    <li><a class="dropdown-item" href="/home-splash/?splash_type=slider">Splash Slider</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/home-splash/">Splash Video</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#properties" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-images"></i> Properties
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Grid Layout</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/grid-default/">Grid Default</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/grid-full-width/">Grid Full Width 3 Cols</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/grid-full-width-2-cols/">Grid Full Width 2 Cols</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">With Map</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/with-header-map/">With Header Map</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/with-half-map/">With Half Map</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-tabs/">With Tabs</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-featured-on-top/">With Featured on Top</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-content-top/">With Content Top</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-content-bottom/">With Content Bottom</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-parallax/">With Parallax</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Elementor</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/listings-with-elementor/">Full Width</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/listings-elementor-sidebar/">With Sidebar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#property" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-building"></i> Property
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/amazing-family-home/">Default Layout</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-villa-with-pool/">Property Layout v1</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-apartment-ocean-view-2/">Property Layout v2</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/gorgeous-in-green-house/">Property Layout v3</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/gorgeous-studio-bay-front/">Property Layout v4</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-family-home/">Property Layout v5</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/modern-day-apartment/">Property Layout v6</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-villa-with-pool/?is_full_width=1">Property Layout Full Width</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/guaranteed-modern-home/">Property Landing Page</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/contemporary-apartment-3/">Property Layout Tabs v1</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/confortable-apartment/">Property Layout Tabs v2</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-apartment-bay-view/">Property Layout Minimal</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-villa-with-pool/">Property Layout Boxed</a></li>
+                        </ul>
+                    </li>
+                    
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#Realtor" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-info-circle"></i> Realtor
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Agents.html">Agents</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/agent/michelle-ramirez/">Agent Profile</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/agencies/">Agencies</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/agency/all-american-real-estate/">Agency Profile</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="about.html">About</a></li>
+                            <li><a class="dropdown-item" href="inquiry.html">Inquiry Form</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                            <li><a class="dropdown-item" href="Typography.html">Typography</a></li>
+                            <li><a class="dropdown-item" href="Page 404.html">Page 404</a></li>
+                            <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                    
+                            <!-- Residential Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="https://demo02.houzez.co/property-type/residential/" id="residentialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Residential
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="residentialDropdown">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/apartment/">Apartment</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/single-family-home/">Single Family Home</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/villa/">Villa</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/studio/">Studio</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/condo/">Condo</a></li>
+                                </ul>
+                            </li>
+                    
+                            <!-- Commercial Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="https://demo02.houzez.co/property-type/commercial/" id="commercialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Commercial
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="commercialDropdown">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/office/">Office</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/shop/">Shop</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#contact" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-phone"></i> (808) 987 6543
+                        </a>
+                    </li>
+                    
+                </ul>
+                <button class="btn btn-primary ms-3" type="button">Create a Listing</button>
+            </div>
+        </div>
+    </nav>
+    
+
+    <section id="desktop-header-search" class="advanced-search advanced-search-nav mt-3 sticky-header" data-hidden="0" data-sticky="1" ">
+        <div class="container">
+            <form class="houzez-search-form-js" method="get" autocomplete="off">
+                <div class="advanced-search-v3">
+                    <div class="d-flex flex-wrap">
+                        <div class="flex-search flex-grow-1 mb-3 me-2">
+                            <div class="form-group">
+                                <div class="search-icon">
+                                    <input name="keyword" type="text" class="form-control" placeholder="Enter Keyword..." style="padding: 4px 40px; background-color: #FFFFFF; border-color: #979ca282">
+                                    <div id="auto_complete_ajax" class="auto-complete"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-search mb-3 me-2">
+                            <div class="dropdown">
+                                <button class="btn btn-outline dropdown-toggle w-100" type="button" id="statusDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 4px 40px; background-color: #FFFFFF; border-color: #979ca282">
+                                    Status
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="statusDropdown">
+                                    <li><label class="dropdown-item"><input type="checkbox" name="status[]" value="for-rent"> For Rent</label></li>
+                                    <li><label class="dropdown-item"><input type="checkbox" name="status[]" value="for-sale"> For Sale</label></li>
+                                    <li><label class="dropdown-item"><input type="checkbox" name="status[]" value="foreclosures"> Foreclosures</label></li>
+                                    <li><label class="dropdown-item"><input type="checkbox" name="status[]" value="new-construction"> New Construction</label></li>
+                                    <li><label class="dropdown-item"><input type="checkbox" name="status[]" value="new-listing"> New Listing</label></li>
+                                    <li><label class="dropdown-item"><input type="checkbox" name="status[]" value="open-house"> Open House</label></li>
+                                    <li><label class="dropdown-item"><input type="checkbox" name="status[]" value="reduced-price"> Reduced Price</label></li>
+                                    <li><label class="dropdown-item"><input type="checkbox" name="status[]" value="resale"> Resale</label></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex-search mb-3 me-2">
+                            <div class="dropdown">
+                                <button class="btn btn-outline dropdown-toggle w-100" type="button" id="bedsDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 4px 40px; background-color: #FFFFFF; border-color: #979ca282">
+                                    <i class="houzez-icon icon-hotel-double-bed-1"></i> Beds
+                                </button>
+                                <div class="dropdown-menu p-3" aria-labelledby="bedsDropdown">
+                                    <div class="d-flex align-items-center">
+                                        <button type="button" class="btn btn-outline-secondary me-2" id="btn_beds_minus">-</button>
+                                        <span id="beds_count" class="me-2">0</span>
+                                        <button type="button" class="btn btn-outline-secondary" id="btn_beds_plus">+</button>
+                                        <input type="hidden" name="bedrooms" id="bedrooms" value="0">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-search mb-3 me-2">
+                            <div class="dropdown">
+                                <button class="btn btn-outline dropdown-toggle w-100" type="button" id="bathsDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 4px 40px; background-color: #FFFFFF; border-color: #979ca282">
+                                    <i class="houzez-icon icon-bathroom-shower-1"></i> Baths
+                                </button>
+                                <div class="dropdown-menu p-3" aria-labelledby="bathsDropdown">
+                                    <div class="d-flex align-items-center">
+                                        <button type="button" class="btn btn-outline-secondary me-2" id="btn_baths_minus">-</button>
+                                        <span id="baths_count" class="me-2">0</span>
+                                        <button type="button" class="btn btn-outline-secondary" id="btn_baths_plus">+</button>
+                                        <input type="hidden" name="bathrooms" id="bathrooms" value="0">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-search mb-3 me-2">
+                            <div class="dropdown">
+                                <button class="btn btn-outline dropdown-toggle w-100" type="button" id="priceDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 4px 40px; background-color: #FFFFFF; border-color: #979ca282">
+                                    Price
+                                </button>
+                                <div class="dropdown-menu p-3" aria-labelledby="priceDropdown">
+                                    <div class="d-flex flex-column">
+                                        <input type="text" class="form-control mb-2" name="min-price" placeholder="Min Price">
+                                        <input type="text" class="form-control" name="max-price" placeholder="Max Price">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-search mb-3">
+                            <button type="submit" class="btn btn-warning text-white w-100" style="background-color: #FF6E00; border-color: #FF6E00; padding: 4px 50px;">Search</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div id="propertySlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/apartment-1.jpg" class="carousel-image" alt="Property Image 1">
+                <div class="carousel-caption overlay-caption">
+                    <div class="text-start p-4 rounded">
+                        <h3><b>$1,200,000</b></h3>
+                        <h5>Light and modern apartment</h5>
+                        <p>2 Beds, 1 Bath, 1500 sqft</p>
+                        <p class="mb-1">Perfect for small families or couples looking for comfort and convenience.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <img src="assets/images/apartment-2.jpg" class="carousel-image" alt="Property Image 1">
+                <div class="carousel-caption overlay-caption">
+                    <div class="text-start text-white p-4 rounded">
+                        <h3><b>$1,300,000</b></h3>
+                        <h5>Green View design</h5>
+                        <p>2 Beds, 1 Bath, 1500 sqft</p>
+                        <p class="mb-1">Perfect for small families or couples looking for comfort and convenience.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <img src="assets/images/apartment-3.jpg" class="carousel-image" alt="Property Image 1">
+                <div class="carousel-caption overlay-caption">
+                    <div class="text-start text-white p-4 rounded">
+                        <h3><b>$2,200,000</b></h3>
+                        <h5>Modern loft apartment</h5>
+                        <p>2 Beds, 1 Bath, 1500 sqft</p>
+                        <p class="mb-1">Perfect for small families or couples looking for comfort and convenience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#propertySlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#propertySlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#propertySlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    </div>
+
+    <section class="property-gallery py-5">
+        <div class="container">
+            <div class="elementor-spaces-inner" style="width: 925px; height: 30px;margin: 0 auto;"></div> 
+            <h2 class="gallery-heading text-center mb-4">Our Featured Properties</h2>
+            <div class="elementor-spaces-inner" style="width: 925px; height: 30px;margin: 0 auto;"></div> 
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card property-item shadow-sm position-relative">
+                        <span class="badge featured-badge position-absolute">Featured</span>
+                        <span class="badge rent-badge position-absolute">For Rent</span>
+                        <img src="assets/images/apartment-1.jpg" class="card-img-top" alt="Apartment 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Houzez1</h5>
+                            <p class="card-text"></p>
+                            <div class="details d-flex justify-content-between align-items-center">
+                                <span class="text-primary"><strong>$150,000</strong></span>
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-bed me-1"></i> 2
+                                    <i class="fas fa-bath ms-3 me-1"></i> 2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card property-item shadow-sm position-relative">
+                        <span class="badge featured-badge position-absolute">Featured</span>
+                        <span class="badge rent-badge position-absolute">For Rent</span>
+                        <img src="assets/images/apartment-2.jpg" class="card-img-top" alt="Apartment 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Houzez2</h5>
+                            <p class="card-text"></p>
+                            <div class="details d-flex justify-content-between align-items-center">
+                                <span class="text-primary"><strong>$250,000</strong></span>
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-bed me-1"></i> 2
+                                    <i class="fas fa-bath ms-3 me-1"></i> 2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card property-item shadow-sm position-relative">
+                        <span class="badge featured-badge position-absolute">Featured</span>
+                        <span class="badge rent-badge position-absolute">For Rent</span>
+                        <img src="assets/images/apartment-3.jpg" class="card-img-top" alt="Apartment 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Houzez3</h5>
+                            <p class="card-text"></p>
+                            <div class="details d-flex justify-content-between align-items-center">
+                                <span class="text-primary"><strong>$950,000</strong></span>
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-bed me-1"></i> 2
+                                    <i class="fas fa-bath ms-3 me-1"></i> 2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card property-item shadow-sm position-relative">
+                        <span class="badge rent-badge position-absolute">For Rent</span>
+                        <img src="assets/images/apartment-1.jpg" class="card-img-top" alt="Apartment 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Houzez4</h5>
+                            <p class="card-text"></p>
+                            <div class="details d-flex justify-content-between align-items-center">
+                                <span class="text-primary"><strong>$150,000</strong></span>
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-bed me-1"></i> 2
+                                    <i class="fas fa-bath ms-3 me-1"></i> 2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card property-item shadow-sm position-relative">
+                        <span class="badge rent-badge position-absolute">For Rent</span>
+                        <img src="assets/images/apartment-2.jpg" class="card-img-top" alt="Apartment 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Houzez5</h5>
+                            <p class="card-text"></p>
+                            <div class="details d-flex justify-content-between align-items-center">
+                                <span class="text-primary"><strong>$250,000</strong></span>
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-bed me-1"></i> 2
+                                    <i class="fas fa-bath ms-3 me-1"></i> 2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card property-item shadow-sm position-relative">
+                        <span class="badge rent-badge position-absolute">For Rent</span>
+                        <img src="assets/images/apartment-3.jpg" class="card-img-top" alt="Apartment 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Houzez6</h5>
+                            <p class="card-text"></p>
+                            <div class="details d-flex justify-content-between align-items-center">
+                                <span class="text-primary"><strong>$950,000</strong></span>
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-bed me-1"></i> 2
+                                    <i class="fas fa-bath ms-3 me-1"></i> 2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="agent-contact text-white position-relative" style="background: url('assets/images/contact-background.jpg') center/cover no-repeat; background-size: cover; background-attachment: fixed; margin-top: 40px;">
+        <div class="position-absolute w-100 h-100" style="background: rgba(91, 148, 166, 0.7); top: 0; left: 0;"></div>
+        <div class="container position-relative">
+            <div class="row align-items-center py-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <h5 class="display-6 text-white" style="font-family: roboto;">Design Custom Real Estate Inquiry Forms</h5>
+                    <p class="lead text-white">Design custom lead capture forms that integrate with the Houzez CRM.</p>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="bg-white p-4 rounded shadow">
+                        <form>
+                            <div class="mb-3">
+                                <select id="inquiryType" class="form-select" required>
+                                    <option selected disabled>Select</option>
+                                    <option>Information</option>
+                                </select>
+                            </div>
+    
+                            <div class="row g-2 mb-3">
+                                <div class="col-6">
+                                    <input type="text" class="form-control" placeholder="First Name" required>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" placeholder="Last Name" required>
+                                </div>
+                            </div>
+    
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+    
+                            <div class="row g-2 mb-3">
+                                <div class="col-6">
+                        
+                                    <select id="location" class="form-select" required>
+                                        <option selected disabled>Select city</option>
+                                        <option>New York</option>
+                                        <option>Los Angeles</option>
+                                        <option>Chicago</option>
+                                    </select>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" placeholder="Zip Code" required>
+                                </div>
+                            </div>
+    
+                            <div class="row g-2 mb-3">
+                                <div class="col-6">
+                                    <select id="propertyType" class="form-select" required>
+                                        <option selected disabled>Select type</option>
+                                        <option>Apartment</option>
+                                        <option>House</option>
+                                        <option>Villa</option>
+                                    </select>
+                                </div>
+                                <div class="col-6">
+                                    <input type="number" class="form-control" placeholder="Max Price" required>
+                                </div>
+                            </div>
+    
+                            <div class="row g-2 mb-3">
+                                <div class="col-4">
+                                    <input type="number" class="form-control" placeholder="Minimum size" required>
+                                </div>
+                                <div class="col-4">
+                                    <input type="number" class="form-control" placeholder="Number of beds" required>
+                                </div>
+                                <div class="col-4">
+                                    <input type="number" class="form-control" placeholder="Number of baths" required>
+                                </div>
+                            </div>
+    
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container my-5">
+        <div class="elementor-spaces-inner" style="width: 944.8px; height: 100px;margin: 0 auto;"></div>    
+        <h2 class="text-center mb-4">Explore Our Properties</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit donec sollicitudin</p>
+        <div class="elementor-spaces-inner" style="width: 944.8px; height: 20px;margin: 0 auto;"></div> 
+        <div class="row g-3 justify-content-center">
+            <div class="col-lg-2 d-flex justify-content-start">
+                <div class="card border border-secondary rounded position-relative" 
+                     style="height: 400px; width: 100%; max-width: 400px;">
+                    <img src="assets/images/apartment-1.jpg" class="card-img-top" alt="Front View" 
+                         style="height: 100%; object-fit: cover; border-radius: 2px;">
+                    <div class="position-absolute bottom-0 start-0 p-2">
+                        <button class="btn btn-secondary btn-sm shadow-sm">Show More</button>
+                    </div>
+                    <div class="position-absolute bottom-0 end-0 p-2">
+                            <i class="bi bi-play-fill text-white fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 d-flex justify-content-center">
+                <div class="card border border-secondary rounded position-relative" 
+                     style="height: 400px; width: 100%; max-width: 400px;">
+                    <img src="assets/images/apartment-2.jpg" class="card-img-top" alt="Left Side View" 
+                         style="height: 100%; object-fit: cover; border-radius: 8px;">
+                    <div class="position-absolute bottom-0 start-0 p-2">
+                        <button class="btn btn-secondary btn-sm shadow-sm">Show More</button>
+                    </div>
+                    <div class="position-absolute bottom-0 end-0 p-2">
+                            <i class="bi bi-play-fill text-white fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 d-flex justify-content-end">
+                <div class="card border border-secondary rounded position-relative" 
+                     style="height: 400px; width: 100%; max-width: 400px;">
+                    <img src="assets/images/apartment-3.jpg" class="card-img-top" alt="Right Side View" 
+                         style="height: 100%; object-fit: cover; border-radius: 8px;">
+                    <div class="position-absolute bottom-0 start-0 p-2">
+                        <button class="btn btn-secondary btn-sm shadow-sm">Show More</button>
+                    </div>
+                    <div class="position-absolute bottom-0 end-0 p-2">
+                            <i class="bi bi-play-fill text-white fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 d-flex justify-content-end">
+                <div class="card border border-secondary rounded position-relative" 
+                     style="height: 400px; width: 100%; max-width: 400px;">
+                    <img src="assets/images/apartment-1.jpg" class="card-img-top" alt="Right Side View" 
+                         style="height: 100%; object-fit: cover; border-radius: 8px;">
+                    <div class="position-absolute bottom-0 start-1 p-2">
+                        <button class="btn btn-secondary btn-sm shadow-sm">Show More</button>
+                    </div>
+                    <div class="position-absolute bottom-0 end-0 p-2">
+                            <i class="bi bi-play-fill text-white fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 d-flex justify-content-end">
+                <div class="card border border-secondary rounded position-relative" 
+                     style="height: 400px; width: 100%; max-width: 400px;">
+                    <img src="assets/images/apartment-2.jpg" class="card-img-top" alt="Right Side View" 
+                         style="height: 100%; object-fit: cover; border-radius: 8px;">
+                    <div class="position-absolute bottom-0 start-0 p-2">
+                        <button class="btn btn-secondary btn-sm shadow-sm">Show More</button>
+                    </div>
+                    <div class="position-absolute bottom-0 end-0 p-2">
+                            <i class="bi bi-play-fill text-white fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-spaces-inner" style="width: 944.8px; height: 100px;margin: 0 auto;"></div> 
+    <section class="why-houzez-section py-5" style="background-color: #145397;">
+        <div class="container">
+            <div class="row g-5 text-center">
+                <div class="col-md-3">
+                    <div class="feature-item">
+                        <div class="elementor-spaces-inner" style="height: 100px;"></div> <!-- Top space -->
+                        <h3 class="text-white mb-3" style="font-family: 'Roboto', sans-serif;">Why Houzez Is The Perfect Choice?</h3>
+                        <div class="elementor-spaces-inner" style="height: 30px;"></div> <!-- Bottom space -->
+                        <hr class="w-50 mx-auto border-top border-2 border-light">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-item">
+                        <div class="elementor-spaces-inner" style="height: 100px;"></div> <!-- Top space -->
+                        <h3 class="text-white mb-3" style="font-family: 'Roboto', sans-serif;">01. Easy To Get Started</h3>
+                        <p class="text-light" style="font-family: 'Roboto', sans-serif;">
+                            Get ready to launch your real estate website without any previous experience.
+                        </p>
+                        <div class="elementor-spaces-inner" style="height: 30px;"></div> <!-- Bottom space -->
+                        <hr class="w-50 mx-auto border-top border-2 border-light">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-item">
+                        <div class="elementor-spaces-inner" style="height: 100px;"></div> <!-- Top space -->
+                        <h3 class="text-white mb-3" style="font-family: 'Roboto', sans-serif;">02. Pre-Built Websites</h3>
+                        <p class="text-light" style="font-family: 'Roboto', sans-serif;">
+                            Get started by choosing from one of our pre-built page templates to showcase.
+                        </p>
+                        <div class="elementor-spaces-inner" style="height: 30px;"></div> <!-- Bottom space -->
+                        <hr class="w-50 mx-auto border-top border-2 border-light">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-item">
+                        <div class="elementor-spaces-inner" style="height: 100px;"></div> <!-- Top space -->
+                        <h3 class="text-white mb-3" style="font-family: 'Roboto', sans-serif;">03. highly Customize</h3>
+                        <p class="text-light" style="font-family: 'Roboto', sans-serif;">
+                            Customize your website to your expectations by using all of the features.
+                        </p>
+                        <div class="elementor-spaces-inner" style="height: 30px;"></div> <!-- Bottom space -->
+                        <hr class="w-50 mx-auto border-top border-2 border-light">
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-spaces-inner" style="height: 100px;"></div> <!-- Top space -->
+        </div>
+    </section>
+    <section class="agents-section py-5">
+        <div class="container">
+            <div class="elementor-spaces-inner" style="width: 944.8px; height: 50px;margin: 0 auto;"></div>    
+            <h2 class="text-center">Meet Our Agents</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit donec sollicitudin</p>
+            <div class="elementor-spaces-inner" style="width: 944.8px; height: 40px;margin: 0 auto;"></div> 
+            <div class="row d-flex justify-content-center g-0">
+                <div class="col-md-2 mb-4 d-flex justify-content-center">
+                    <div class="card border-0 shadow" style="width: 100%; max-width: 300px;">
+                        <div class="card-img-top mx-auto rounded-circle overflow-hidden" style="width: 150px; height: 150px; position: relative; margin-top: 25px;">
+                            <img src="assets/images/agent1.jpg" class="w-100 h-100" alt="Agent 1" style="object-fit: cover;">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #00AEFF; font-weight: bold;">John Doe</h5>
+                            <p class="card-text" style="color: #222222; font-weight: bold;">Senior Real Estate Agent Specialist</p>
+                            <p class="card-text">Specializing in luxury properties and personalized client service provider.</p>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com" class="text-primary mx-1"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com" class="text-primary mx-1"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com" class="text-primary mx-1"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4 d-flex justify-content-center">
+                    <div class="card border-0 shadow" style="width: 100%; max-width: 300px;">
+                        <div class="card-img-top mx-auto rounded-circle overflow-hidden" style="width: 150px; height: 150px; position: relative; margin-top: 25px;">
+                            <img src="assets/images/agent2.jpg" class="w-100 h-100" alt="Agent 2" style="object-fit: cover;">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #00AEFF; font-weight: bold;">Jane Smith</h5>
+                            <p class="card-text"  style="color: #222222; font-weight: bold;">Residential Specialist Agent</p>
+                            <p class="card-text">Focused on helping clients find the perfect family home and agent special.</p>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com" class="text-primary mx-1"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com" class="text-primary mx-1"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com" class="text-primary mx-1"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4 d-flex justify-content-center">
+                    <div class="card border-0 shadow" style="width: 100%;max-width: 300px;">
+                        <div class="card-img-top mx-auto rounded-circle overflow-hidden" style="width: 150px; height: 150px; position: relative; margin-top: 25px;">
+                            <img src="assets/images/agent3.jpg" class="w-100 h-100" alt="Agent 3" style="object-fit: cover;">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #00AEFF; font-weight: bold;">Michael Lee</h5>
+                            <p class="card-text"  style="color: #222222; font-weight: bold;">Commercial Property Expert</p>
+                            <p class="card-text">Experienced in commercial real estate and investment properties.</p>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com" class="text-primary mx-1"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com" class="text-primary mx-1"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com" class="text-primary mx-1"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4 d-flex justify-content-center">
+                    <div class="card border-0 shadow" style="width: 100%;max-width: 300px;">
+                        <div class="card-img-top mx-auto rounded-circle overflow-hidden" style="width: 150px; height: 150px; position: relative; margin-top: 25px;">
+                            <img src="assets/images/agent4.jpg" class="w-100 h-100" alt="Agent 3" style="object-fit: cover;">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #00AEFF; font-weight: bold;">Vincent Fuller</h5>
+                            <p class="card-text"  style="color: #222222; font-weight: bold;">Commercial Property Expert</p>
+                            <p class="card-text">Experienced in commercial real estate and investment properties.</p>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com" class="text-primary mx-1"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com" class="text-primary mx-1"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com" class="text-primary mx-1"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container my-5">
+        <h2 class="text-left mb-4">Read From Our Blog</h2>
+        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit donec sollicitudin</p>
+        <div class="elementor-spaces-inner" style="width: 944.8px; height: 50px;margin: 0 auto;"></div> 
+        <div id="blogCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <!-- Blog Post 1 -->
+                        <div class="col-md-3 blog-post-thumb">
+                            <div class="blog-post-img">
+                                <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/023-592x444.jpg" alt="Post 1">
+                                <div class="overla">
+                                    <div class="blog-post-title">
+                                        <h3>Skills That You Can Learn In The Real Estate Market</h3>
+                                    </div>
+                                    <div class="blog-post-meta">
+                                        <span>March 9, 2016 - Business</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 blog-post-thumb">
+                           <div class="blog-post-img">
+                               <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/007-592x444.jpg" alt="Post 2">
+                                <div class="overla">
+                                    <div class="blog-post-title">
+                                       <h3>Learn The Truth About Real Estate Industry</h3>
+                                    </div>
+                                    <div class="blog-post-meta">
+                                       <span>March 9, 2016 - Construction</span>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 blog-post-thumb">
+                            <div class="blog-post-img">
+                                <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/007-592x444.jpg" alt="Post 2">
+                                 <div class="overla">
+                                     <div class="blog-post-title">
+                                        <h3>Learn The Truth About Real Estate Industry</h3>
+                                     </div>
+                                     <div class="blog-post-meta">
+                                        <span>March 9, 2016 - Construction</span>
+                                     </div>
+                                </div>
+                             </div>
+                         </div>
+                         <div class="col-md-3 blog-post-thumb">
+                            <div class="blog-post-img">
+                                <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/007-592x444.jpg" alt="Post 2">
+                                 <div class="overla">
+                                    <div class="blog-post-title">
+                                        <h3>Learn The Truth About Real Estate Industry</h3>
+                                    </div>
+                                    <div class="blog-post-meta">
+                                        <span>March 9, 2016 - Construction</span>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3 blog-post-thumb">
+                            <div class="blog-post-img">
+                                <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/205-592x444.jpg"alt="Post 3">
+                                <div class="overla">
+                                    <div class="blog-post-title">
+                                        <h3>10 Quick Tips About Business Development</h3>
+                                    </div>
+                                    <div class="blog-post-meta">
+                                        <span>March 9, 2016 - Real Estate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 blog-post-thumb">
+                            <div class="blog-post-img">
+                                <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/205-592x444.jpg"alt="Post 3">
+                                <div class="overla">
+                                    <div class="blog-post-title">
+                                        <h3>10 Quick Tips About Business Development</h3>
+                                    </div>
+                                    <div class="blog-post-meta">
+                                        <span>March 9, 2016 - Real Estate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 blog-post-thumb">
+                            <div class="blog-post-img">
+                                <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/205-592x444.jpg"alt="Post 3">
+                                <div class="overla">
+                                    <div class="blog-post-title">
+                                        <h3>10 Quick Tips About Business Development</h3>
+                                    </div>
+                                    <div class="blog-post-meta">
+                                        <span>March 9, 2016 - Real Estate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 blog-post-thumb">
+                            <div class="blog-post-img">
+                                <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/205-592x444.jpg"alt="Post 3">
+                                <div class="overla">
+                                    <div class="blog-post-title">
+                                        <h3>10 Quick Tips About Business Development</h3>
+                                    </div>
+                                    <div class="blog-post-meta">
+                                        <span>March 9, 2016 - Real Estate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3 blog-post-thumb">
+                            <div class="blog-post-img">
+                                <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/015-592x444.jpg" alt="Post 5">
+                                <div class="overla">
+                                    <div class="blog-post-title">
+                                        <h3>10 Things Your Competitors Can Teach You About Real Estate</h3>
+                                    </div>
+                                    <div class="blog-post-meta">
+                                         <span>March 9, 2016 - Business</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 blog-post-thumb">
+                            <div class="blog-post-img">
+                                <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/015-592x444.jpg" alt="Post 5">
+                                <div class="overla">
+                                    <div class="blog-post-title">
+                                        <h3>10 Things Your Competitors Can Teach You About Real Estate</h3>
+                                    </div>
+                                    <div class="blog-post-meta">
+                                         <span>March 9, 2016 - Business</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 blog-post-thumb">
+                            <div class="blog-post-img">
+                                <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/015-592x444.jpg" alt="Post 5">
+                                <div class="overla">
+                                    <div class="blog-post-title">
+                                        <h3>10 Things Your Competitors Can Teach You About Real Estate</h3>
+                                    </div>
+                                    <div class="blog-post-meta">
+                                         <span>March 9, 2016 - Business</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 blog-post-thumb">
+                            <div class="blog-post-img">
+                                <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/015-592x444.jpg" alt="Post 5">
+                                <div class="overla">
+                                    <div class="blog-post-title">
+                                        <h3>10 Things Your Competitors Can Teach You About Real Estate</h3>
+                                    </div>
+                                    <div class="blog-post-meta">
+                                         <span>March 9, 2016 - Business</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      
+    <div class="elementor-spaces-inner" style="width: 944.8px; height: 70px;margin: 0 auto;"></div> 
+    <div class="container-fluid py-4" style="box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);">
+        <div class="row d-flex justify-content-center align-items-center">
+        
+            <div class="col-4 col-md-2 d-flex justify-content-center mb-3 mb-md-0">
+                <img src="assets/images/logo1.png" alt="Real Estate Logo 1" class="img-fluid">
+            </div>
+            
+            <div class="col-4 col-md-2 d-flex justify-content-center mb-3 mb-md-0">
+                <img src="assets/images/logo2.png" alt="Real Estate Logo 2" class="img-fluid">
+            </div>
+            
+            <div class="col-4 col-md-2 d-flex justify-content-center mb-3 mb-md-0">
+                <img src="assets/images/logo3.png" alt="Real Estate Logo 3" class="img-fluid">
+            </div>
+            
+            <div class="col-4 col-md-2 d-flex justify-content-center mb-3 mb-md-0">
+                <img src="assets/images/logo4.png" alt="Real Estate Logo 3" class="img-fluid">
+            </div>
+    
+            <div class="col-4 col-md-2 d-flex justify-content-center mb-3 mb-md-0">
+                <img src="assets/images/logo5.png" alt="Real Estate Logo 3" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="footer-top-wrap py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h5 class="text-uppercase mb-4">Discover</h5>
+                    <ul class="list-unstyled mb-5">
+                        <li><a href="https://demo02.houzez.co/city/miami/">Miami</a></li>
+                        <li><a href="https://demo02.houzez.co/city/los-angeles/">Los Angeles</a></li>
+                        <li><a href="https://demo02.houzez.co/city/chicago/">Chicago</a></li>
+                        <li><a href="https://demo02.houzez.co/city/new-york/">New York</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="text-uppercase mb-4">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-geo-alt-fill me-2"></i>774 NE 84th St Miami, FL 33879</li>
+                        <li><i class="bi bi-telephone-fill me-2"></i>879 456 1349</li>
+                        <li><i class="bi bi-envelope-fill me-2"></i><a href="mailto:email@domain.com">[email&#160;protected]</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <h5 class="text-uppercase mb-4">Newsletter</h5>
+                    <form action="#" method="POST">
+                        <div class="row g-2">
+                            <div class="col-md-8">
+                                <input type="email" class="form-control" placeholder="Enter your email" required>
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-primary w-100">Submit</button>
+                            </div>
+                        </div>
+                        <p class="mt-3 small">Houzez is a premium WordPress theme for Designers & Real Estate Agents.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom-wrap py-3">
+        <div class="container d-flex flex-column align-items-center">
+            <div class="social-links text-center mb-4">
+                <a href="" class="me-3"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#" class="me-3"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#" class="me-3"><i class="fab fa-google-plus-g"></i> Google+</a>
+                <a href="#" class="me-3"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+                <a href="#" class="me-3"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#" class="me-3"><i class="fab fa-pinterest"></i> Pinterest</a>
+                <a href="#" class="me-3"><i class="fab fa-yelp"></i> help</a>
+                <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+            </div>
+            <div class="logo text-center mb-4">
+                <img src="https://demo02.houzez.co/wp-content/themes/houzez/img/logo-houzez-white.png" alt="Logo">
+            </div>
+            <div class="copyright text-center mb-4">
+                <p class="mb-0">&copy; Houzez - All rights reserved</p>
+            </div>
+        </div>
+    </div>
+</footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

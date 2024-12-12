@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>houzez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://demo02.houzez.co/wp-content/themes/houzez/img/logo-houzez-white.png" 
+                     alt="Logo" 
+                     style="height: 25px; width: auto;" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#home" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-home"></i> Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-default/">Home Default</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-with-caption-form/">With Caption Form</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-side-search/">With Overlay Side Search</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-with-map/">With Map</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-image-banner/">With Image Banner</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-properties-slider/">With Properties Slider</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/">With Revolution Slider</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-with-video/">With Video</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-overlay-advanced-search/">Overlay Advanced Search</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home Splash</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/home-splash/?splash_type=image">Splash Image</a></li>
+                                    <li><a class="dropdown-item" href="/home-splash/?splash_type=slider">Splash Slider</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/home-splash/">Splash Video</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#properties" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-images"></i> Properties
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Grid Layout</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/grid-default/">Grid Default</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/grid-full-width/">Grid Full Width 3 Cols</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/grid-full-width-2-cols/">Grid Full Width 2 Cols</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">With Map</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/with-header-map/">With Header Map</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/with-half-map/">With Half Map</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-tabs/">With Tabs</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-featured-on-top/">With Featured on Top</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-content-top/">With Content Top</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-content-bottom/">With Content Bottom</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-parallax/">With Parallax</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Elementor</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/listings-with-elementor/">Full Width</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/listings-elementor-sidebar/">With Sidebar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#property" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-building"></i> Property
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/amazing-family-home/">Default Layout</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-villa-with-pool/">Property Layout v1</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-apartment-ocean-view-2/">Property Layout v2</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/gorgeous-in-green-house/">Property Layout v3</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/gorgeous-studio-bay-front/">Property Layout v4</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-family-home/">Property Layout v5</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/modern-day-apartment/">Property Layout v6</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-villa-with-pool/?is_full_width=1">Property Layout Full Width</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/guaranteed-modern-home/">Property Landing Page</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/contemporary-apartment-3/">Property Layout Tabs v1</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/confortable-apartment/">Property Layout Tabs v2</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-apartment-bay-view/">Property Layout Minimal</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-villa-with-pool/">Property Layout Boxed</a></li>
+                        </ul>
+                    </li>
+                    
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#Realtor" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-info-circle"></i> Realtor
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Agents.html">Agents</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/agent/michelle-ramirez/">Agent Profile</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/agencies/">Agencies</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/agency/all-american-real-estate/">Agency Profile</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="about.html">About</a></li>
+                            <li><a class="dropdown-item" href="inquiry.html">Inquiry Form</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                            <li><a class="dropdown-item" href="Typography.html">Typography</a></li>
+                            <li><a class="dropdown-item" href="Page 404.html">Page 404</a></li>
+                            <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                    
+                            <!-- Residential Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="https://demo02.houzez.co/property-type/residential/" id="residentialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Residential
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="residentialDropdown">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/apartment/">Apartment</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/single-family-home/">Single Family Home</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/villa/">Villa</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/studio/">Studio</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/condo/">Condo</a></li>
+                                </ul>
+                            </li>
+                    
+                            <!-- Commercial Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="https://demo02.houzez.co/property-type/commercial/" id="commercialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Commercial
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="commercialDropdown">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/office/">Office</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/shop/">Shop</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#contact" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-phone"></i> (808) 987 6543
+                        </a>
+                    </li>
+                    
+                </ul>
+                <button class="btn btn-primary ms-3" type="button">Create a Listing</button>
+            </div>
+        </div>
+    </nav>
+
+
+   
+
+    
+
+
+    <div class="container mt-4">
+        <div class="row">
+    
+            <!-- Article Section (Main Content) -->
+            <div class="col-lg-8 col-md-9">
+                <!-- Article Content -->
+                <div class="content">
+                    <!-- Article 1 -->
+                    <div class="card h-100 g-4">
+                          <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/018-1024x768.jpg" class="card-img-top" alt="Why We Love Real Estate">
+                          <div class="card-body">
+                             <h3 class="card-title"><a href="https://demo02.houzez.co/10-things-your-competitors-can-teach-you-about-real-estate/" class="text-decoration">10 Things Your Competitors Can Teach You About Real Estate</a></h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec non odio neque. Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis, at malesuada orci congue. Nullam tempus sollicitudin cursus. Ut et adipiscing erat. Curabitur this is a text link libero tempus congue. Duis mattis laoreet neque, et ornare neque...</p>
+                          </div>
+                          <div class="card-footer d-flex justify-content-between align-items-center">
+                            <ul class="list-inline mb-0">
+                              <li class="list-inline-item"><i class="bi bi-calendar"></i> 9 years ago</li>
+                              <li class="list-inline-item"><i class="bi bi-tags"></i> <a href="https://demo02.houzez.co/category/business/" class="text-decoration-none">Business</a></li>
+                            </ul>
+                           <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="elementor-spaces-inner" style="width: 944.8px; height: 20px;margin: 0 auto;"></div> 
+                    
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/018-1024x768.jpg" class="card-img-top" alt="Why We Love Real Estate">
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="https://demo02.houzez.co/why-we-love-real-estate/" class="text-decoration-none">Why We Love Real Estate</a></h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec non odio neque. Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis, at malesuada orci congue. Nullam tempus sollicitudin cursus. Ut et adipiscing erat. Curabitur this is a text link libero tempus congue. Duis mattis laoreet neque, et ornare neque...</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item"><i class="bi bi-calendar"></i> 9 years ago</li>
+                                    <li class="list-inline-item"><i class="bi bi-tags"></i> <a href="https://demo02.houzez.co/category/construction/" class="text-decoration-none">Construction</a></li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="elementor-spaces-inner" style="width: 944.8px; height: 20px;margin: 0 auto;"></div> 
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/206-1024x683.jpg" class="card-img-top" alt="10 Quick Tips About Real Estate">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="https://demo02.houzez.co/10-quick-tips-about-real-estate/" class="text-decoration-none">10 Quick Tips About Real Estate</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec non odio neque. Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis, at malesuada orci congue. Nullam tempus sollicitudin cursus. Ut et adipiscing erat. Curabitur this is a text link libero tempus congue. Duis mattis laoreet neque, et ornare neque...</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item"><i class="bi bi-calendar"></i> 9 years ago</li>
+                                    <li class="list-inline-item"><i class="bi bi-tags"></i> <a href="https://demo02.houzez.co/category/real-estate/" class="text-decoration-none">Real Estate</a></li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="elementor-spaces-inner" style="width: 944.8px; height: 20px;margin: 0 auto;"></div> 
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/043-1024x768.jpg" class="card-img-top" alt="15 Best Blogs To Follow About Real Estate">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="https://demo02.houzez.co/15-best-blogs-to-follow-about-real-estate/" class="text-decoration-none">15 Best Blogs To Follow About Real Estate</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec non odio neque. Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis, at malesuada orci congue. Nullam tempus sollicitudin cursus. Ut et adipiscing erat. Curabitur this is a text link libero tempus congue. Duis mattis laoreet neque, et ornare neque...</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item"><i class="bi bi-calendar"></i> 9 years ago</li>
+                                    <li class="list-inline-item"><i class="bi bi-tags"></i> <a href="https://demo02.houzez.co/category/real-estate/" class="text-decoration-none">Real Estate</a></li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="elementor-spaces-inner" style="width: 944.8px; height: 20px;margin: 0 auto;"></div> 
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/009-1024x768.jpg" class="card-img-top" alt="15 Best Blogs To Follow About Real Estate">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="https://demo02.houzez.co/15-best-blogs-to-follow-about-real-estate/" class="text-decoration-none">15 Best Blogs To Follow About Real Estate</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec non odio neque. Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis, at malesuada orci congue. Nullam tempus sollicitudin cursus. Ut et adipiscing erat. Curabitur this is a text link libero tempus congue. Duis mattis laoreet neque, et ornare neque...</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item"><i class="bi bi-calendar"></i> 9 years ago</li>
+                                    <li class="list-inline-item"><i class="bi bi-tags"></i> <a href="https://demo02.houzez.co/category/real-estate/" class="text-decoration-none">Real Estate</a></li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="elementor-spaces-inner" style="width: 944.8px; height: 20px;margin: 0 auto;"></div> 
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://demo02.houzez.co/wp-content/uploads/2016/03/026-1024x768.jpg" class="card-img-top" alt="15 Best Blogs To Follow About Real Estate">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="https://demo02.houzez.co/15-best-blogs-to-follow-about-real-estate/" class="text-decoration-none">15 Best Blogs To Follow About Real Estate</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec non odio neque. Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis, at malesuada orci congue. Nullam tempus sollicitudin cursus. Ut et adipiscing erat. Curabitur this is a text link libero tempus congue. Duis mattis laoreet neque, et ornare neque...</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item"><i class="bi bi-calendar"></i> 9 years ago</li>
+                                    <li class="list-inline-item"><i class="bi bi-tags"></i> <a href="https://demo02.houzez.co/category/real-estate/" class="text-decoration-none">Real Estate</a></li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <nav aria-label="Page navigation example" class="mt-4">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item active">
+                                <a class="page-link" href="#">1</a>
+                            </li>
+                            <li class="page-item">
+                                <!-- <a class="page-link" href="#">2</a> -->
+                                <a class="page-link" href="Blog2.html">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    
+            <!-- Sticky Sidebar (Right side) -->
+            <div class="col-lg-4 col-md-12">
+                <div class="sticky-sidebar">
+                    <aside id="sidebar" class="sidebar-wrap">
+                        <!-- Archives Widget -->
+                        <div id="archives-2" class="widget widget-wrap widget_archive">
+                            <div class="widget-header">
+                                <h3 class="widget-title">Archives</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">March 2016</a></li>
+                                <li><a href="#">January 2016</a></li>
+                            </ul>
+                        </div>
+    
+                        <!-- Categories Widget -->
+                        <div id="categories-2" class="widget widget-wrap widget_categories">
+                            <div class="widget-header">
+                                <h3 class="widget-title">Categories</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Construction</a></li>
+                                <li><a href="#">Real Estate</a></li>
+                            </ul>
+                        </div>
+    
+                        <!-- Meta Widget -->
+                        <div id="meta-2" class="widget widget-wrap widget_meta">
+                            <div class="widget-header">
+                                <h3 class="widget-title">Meta</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Register</a></li>
+                                <li><a href="#">Log in</a></li>
+                                <li><a href="#">Entries feed</a></li>
+                                <li><a href="#">Comments feed</a></li>
+                                <li><a href="#">WordPress.org</a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <footer>
+        <div class="elementor-spaces-inner" style="width: 944.8px; height: 20px;margin: 0 auto;"></div> 
+        <div class="footer-top-wrap py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <h5 class="text-uppercase mb-4">Discover</h5>
+                        <ul class="list-unstyled mb-5">
+                            <li><a href="https://demo02.houzez.co/city/miami/">Miami</a></li>
+                            <li><a href="https://demo02.houzez.co/city/los-angeles/">Los Angeles</a></li>
+                            <li><a href="https://demo02.houzez.co/city/chicago/">Chicago</a></li>
+                            <li><a href="https://demo02.houzez.co/city/new-york/">New York</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <h5 class="text-uppercase mb-4">Contact Us</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-geo-alt-fill me-2"></i>774 NE 84th St Miami, FL 33879</li>
+                            <li><i class="bi bi-telephone-fill me-2"></i>879 456 1349</li>
+                            <li><i class="bi bi-envelope-fill me-2"></i><a href="mailto:email@domain.com">[email&#160;protected]</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <h5 class="text-uppercase mb-4">Newsletter</h5>
+                        <form action="#" method="POST">
+                            <div class="row g-2">
+                                <div class="col-md-8">
+                                    <input type="email" class="form-control" placeholder="Enter your email" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                                </div>
+                            </div>
+                            <p class="mt-3 small">Houzez is a premium WordPress theme for Designers & Real Estate Agents.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-wrap py-3">
+            <div class="container d-flex flex-column align-items-center">
+                <div class="social-links text-center mb-4">
+                    <a href="" class="me-3"><i class="fab fa-facebook-f"></i> Facebook</a>
+                    <a href="#" class="me-3"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#" class="me-3"><i class="fab fa-google-plus-g"></i> Google+</a>
+                    <a href="#" class="me-3"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+                    <a href="#" class="me-3"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#" class="me-3"><i class="fab fa-pinterest"></i> Pinterest</a>
+                    <a href="#" class="me-3"><i class="fab fa-yelp"></i> help</a>
+                    <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+                </div>
+                <div class="logo text-center mb-4">
+                    <img src="https://demo02.houzez.co/wp-content/themes/houzez/img/logo-houzez-white.png" alt="Logo">
+                </div>
+                <div class="copyright text-center mb-4">
+                    <p class="mb-0">&copy; Houzez - All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>

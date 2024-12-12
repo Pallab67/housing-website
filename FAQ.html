@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>houzez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://demo02.houzez.co/wp-content/themes/houzez/img/logo-houzez-white.png" 
+                     alt="Logo" 
+                     style="height: 25px; width: auto;" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#home" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-home"></i> Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-default/">Home Default</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-with-caption-form/">With Caption Form</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-side-search/">With Overlay Side Search</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-with-map/">With Map</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-image-banner/">With Image Banner</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-properties-slider/">With Properties Slider</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/">With Revolution Slider</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-with-video/">With Video</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/home-overlay-advanced-search/">Overlay Advanced Search</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home Splash</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/home-splash/?splash_type=image">Splash Image</a></li>
+                                    <li><a class="dropdown-item" href="/home-splash/?splash_type=slider">Splash Slider</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/home-splash/">Splash Video</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#properties" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-images"></i> Properties
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Grid Layout</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/grid-default/">Grid Default</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/grid-full-width/">Grid Full Width 3 Cols</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/grid-full-width-2-cols/">Grid Full Width 2 Cols</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">With Map</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/with-header-map/">With Header Map</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/with-half-map/">With Half Map</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-tabs/">With Tabs</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-featured-on-top/">With Featured on Top</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-content-top/">With Content Top</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-content-bottom/">With Content Bottom</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/with-parallax/">With Parallax</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Elementor</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/listings-with-elementor/">Full Width</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/listings-elementor-sidebar/">With Sidebar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#property" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-building"></i> Property
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/amazing-family-home/">Default Layout</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-villa-with-pool/">Property Layout v1</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-apartment-ocean-view-2/">Property Layout v2</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/gorgeous-in-green-house/">Property Layout v3</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/gorgeous-studio-bay-front/">Property Layout v4</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-family-home/">Property Layout v5</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/modern-day-apartment/">Property Layout v6</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-villa-with-pool/?is_full_width=1">Property Layout Full Width</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/guaranteed-modern-home/">Property Landing Page</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/contemporary-apartment-3/">Property Layout Tabs v1</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/confortable-apartment/">Property Layout Tabs v2</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-apartment-bay-view/">Property Layout Minimal</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/property/luxury-villa-with-pool/">Property Layout Boxed</a></li>
+                        </ul>
+                    </li>
+                    
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#Realtor" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-info-circle"></i> Realtor
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Agents.html">Agents</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/agent/michelle-ramirez/">Agent Profile</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/agencies/">Agencies</a></li>
+                            <li><a class="dropdown-item" href="https://demo02.houzez.co/agency/all-american-real-estate/">Agency Profile</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="about.html">About</a></li>
+                            <li><a class="dropdown-item" href="inquiry.html">Inquiry Form</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                            <li><a class="dropdown-item" href="Typography.html">Typography</a></li>
+                            <li><a class="dropdown-item" href="Page 404.html">Page 404</a></li>
+                            <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                    
+                            <!-- Residential Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="https://demo02.houzez.co/property-type/residential/" id="residentialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Residential
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="residentialDropdown">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/apartment/">Apartment</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/single-family-home/">Single Family Home</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/villa/">Villa</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/studio/">Studio</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/condo/">Condo</a></li>
+                                </ul>
+                            </li>
+                    
+                            <!-- Commercial Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="https://demo02.houzez.co/property-type/commercial/" id="commercialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Commercial
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="commercialDropdown">
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/office/">Office</a></li>
+                                    <li><a class="dropdown-item" href="https://demo02.houzez.co/property-type/shop/">Shop</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#contact" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-phone"></i> (808) 987 6543
+                        </a>
+                    </li>
+                    
+                </ul>
+                <button class="btn btn-primary ms-3" type="button">Create a Listing</button>
+            </div>
+        </div>
+    </nav>
+
+<section class="elementor-section elementor-top-section elementor-element elementor-element-5b81e21 elementor-section-height-min-height animated-slow elementor-section-boxed elementor-section-height-default elementor-section-items-middle animated fadeIn " 
+    data-id="5b81e21" data-element_type="section" 
+    data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}"
+    style="background-image: url('https://demo02.houzez.co/wp-content/uploads/2016/03/018-1024x768.jpg'); 
+           background-position: center center; 
+           background-repeat: no-repeat; 
+           background-size: cover; 
+           margin-top: 0;">
+    <div class="overlay"></div>
+    <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ad367f8" data-id="ad367f8" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-0e7939f elementor-widget elementor-widget-heading" data-id="0e7939f" data-element_type="widget" data-widget_type="heading.default">
+                    <div class="elementor-widget-container">
+                        <h1 class="elementor-heading-title elementor-size-default" style="color: white;">Frequently Asked Questions</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container my-5">
+    <h3 class="mb-4"><b>Question about selling</b></h3>
+    <div class="accordion" id="faqAccordion">
+        <!-- Accordion Item 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   Can a home depreciate in value?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa mi, sed ornare dui ullamcorper non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis nec orci ac lorem tempor ultricies. Pellentesque pulvinar nisl pulvinar ex tincidunt, eu gravida lacus auctor. Maecenas finibus eros pharetra, tempus tortor sit amet, faucibus sapien. Donec non nulla posuere, malesuada urna quis, ornare lectus. Nunc gravida, sapien non laoreet consectetur, sem ligula consequat ex, sit amet sodales velit dui a ipsum. Mauris aliquet metus nec dui porttitor, non mattis ex accumsan. Duis gravida diam est, ac molestie erat porta sit amet. Vivamus tortor mauris, aliquet condimentum elit porttitor, consequat malesuada nibh. Duis nec vestibulum nisi, eget dignissim ex
+                </div>
+            </div>
+        </div>
+
+        <!-- Accordion Item 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Is an older home as good a value as a new home?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa mi, sed ornare dui ullamcorper non...
+                </div>
+            </div>
+        </div>
+
+        <!-- Accordion Item 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What is a broker?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa mi, sed ornare dui ullamcorper non...
+                </div>
+            </div>
+        </div>
+
+        <!-- Accordion Item 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Can I pay my own taxes and insurance?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa mi, sed ornare dui ullamcorper non...
+                </div>
+            </div>
+        </div>
+
+        <!-- Accordion Item 5 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    How long does the loan process take?
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa mi, sed ornare dui ullamcorper non...
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container my-5">
+    <div class="my-3"></div>
+     <h3 class="mb-4"><b>Question about renting</b></h3>
+    <div class="my-3"></div>
+
+    <!-- Accordion -->
+    <div class="accordion" id="questionsAccordion">
+      <!-- Item 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Can a home depreciate in value?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#questionsAccordion">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa mi, sed ornare dui ullamcorper non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis nec orci ac lorem tempor ultricies.
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Is an older home as good a value as a new home?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#questionsAccordion">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa mi, sed ornare dui ullamcorper non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis nec orci ac lorem tempor ultricies.
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            What is a broker?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#questionsAccordion">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa mi, sed ornare dui ullamcorper non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis nec orci ac lorem tempor ultricies.
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Can I pay my own taxes and insurance?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#questionsAccordion">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa mi, sed ornare dui ullamcorper non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis nec orci ac lorem tempor ultricies.
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            How long does the loan process take?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#questionsAccordion">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa mi, sed ornare dui ullamcorper non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis nec orci ac lorem tempor ultricies.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Spacer -->
+    <div class="my-3"></div>
+  </div>
+
+
+
+
+
+
+
+
+<footer>
+    <div class="footer-top-wrap py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h5 class="text-uppercase mb-4">Discover</h5>
+                    <ul class="list-unstyled mb-5">
+                        <li><a href="https://demo02.houzez.co/city/miami/">Miami</a></li>
+                        <li><a href="https://demo02.houzez.co/city/los-angeles/">Los Angeles</a></li>
+                        <li><a href="https://demo02.houzez.co/city/chicago/">Chicago</a></li>
+                        <li><a href="https://demo02.houzez.co/city/new-york/">New York</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="text-uppercase mb-4">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-geo-alt-fill me-2"></i>774 NE 84th St Miami, FL 33879</li>
+                        <li><i class="bi bi-telephone-fill me-2"></i>879 456 1349</li>
+                        <li><i class="bi bi-envelope-fill me-2"></i><a href="mailto:email@domain.com">[email&#160;protected]</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <h5 class="text-uppercase mb-4">Newsletter</h5>
+                    <form action="#" method="POST">
+                        <div class="row g-2">
+                            <div class="col-md-8">
+                                <input type="email" class="form-control" placeholder="Enter your email" required>
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-primary w-100">Submit</button>
+                            </div>
+                        </div>
+                        <p class="mt-3 small">Houzez is a premium WordPress theme for Designers & Real Estate Agents.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom-wrap py-3">
+        <div class="container d-flex flex-column align-items-center">
+            <div class="social-links text-center mb-4">
+                <a href="" class="me-3"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#" class="me-3"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#" class="me-3"><i class="fab fa-google-plus-g"></i> Google+</a>
+                <a href="#" class="me-3"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+                <a href="#" class="me-3"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#" class="me-3"><i class="fab fa-pinterest"></i> Pinterest</a>
+                <a href="#" class="me-3"><i class="fab fa-yelp"></i> help</a>
+                <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+            </div>
+            <div class="logo text-center mb-4">
+                <img src="https://demo02.houzez.co/wp-content/themes/houzez/img/logo-houzez-white.png" alt="Logo">
+            </div>
+            <div class="copyright text-center mb-4">
+                <p class="mb-0">&copy; Houzez - All rights reserved</p>
+            </div>
+        </div>
+    </div>
+</footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

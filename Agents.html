@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>houzez</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img
+                        src="https://demo02.houzez.co/wp-content/themes/houzez/img/logo-houzez-white.png"
+                        alt="Logo"
+                        style="height: 25px; width: auto;" />
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-white dropdown-toggle"
+                                href="#home" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-home"></i> Home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/home-default/">Home
+                                        Default</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/home-with-caption-form/">With
+                                        Caption Form</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/home-side-search/">With
+                                        Overlay Side Search</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/home-with-map/">With
+                                        Map</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/home-image-banner/">With
+                                        Image Banner</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/home-properties-slider/">With
+                                        Properties Slider</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/">With
+                                        Revolution Slider</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/home-with-video/">With
+                                        Video</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/home-overlay-advanced-search/">Overlay
+                                        Advanced Search</a></li>
+                                <li class="dropdown">
+                                    <a class="dropdown-item dropdown-toggle"
+                                        href="#" role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">Home Splash</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item"
+                                                href="/home-splash/?splash_type=image">Splash
+                                                Image</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="/home-splash/?splash_type=slider">Splash
+                                                Slider</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/home-splash/">Splash
+                                                Video</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-white dropdown-toggle"
+                                href="#properties" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-images"></i> Properties
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a class="dropdown-item dropdown-toggle"
+                                        href="#" role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">Grid Layout</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/grid-default/">Grid
+                                                Default</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/grid-full-width/">Grid
+                                                Full Width 3 Cols</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/grid-full-width-2-cols/">Grid
+                                                Full Width 2 Cols</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-item dropdown-toggle"
+                                        href="#" role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">With Map</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/with-header-map/">With
+                                                Header Map</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/with-half-map/">With
+                                                Half Map</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/with-tabs/">With
+                                        Tabs</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/with-featured-on-top/">With
+                                        Featured on Top</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/with-content-top/">With
+                                        Content Top</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/with-content-bottom/">With
+                                        Content Bottom</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/with-parallax/">With
+                                        Parallax</a></li>
+                                <li class="dropdown">
+                                    <a class="dropdown-item dropdown-toggle"
+                                        href="#" role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">Elementor</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/listings-with-elementor/">Full
+                                                Width</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/listings-elementor-sidebar/">With
+                                                Sidebar</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-white dropdown-toggle"
+                                href="#property" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-building"></i> Property
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/amazing-family-home/">Default
+                                        Layout</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/luxury-villa-with-pool/">Property
+                                        Layout v1</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/luxury-apartment-ocean-view-2/">Property
+                                        Layout v2</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/gorgeous-in-green-house/">Property
+                                        Layout v3</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/gorgeous-studio-bay-front/">Property
+                                        Layout v4</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/luxury-family-home/">Property
+                                        Layout v5</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/modern-day-apartment/">Property
+                                        Layout v6</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/luxury-villa-with-pool/?is_full_width=1">Property
+                                        Layout Full Width</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/guaranteed-modern-home/">Property
+                                        Landing Page</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/contemporary-apartment-3/">Property
+                                        Layout Tabs v1</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/confortable-apartment/">Property
+                                        Layout Tabs v2</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/luxury-apartment-bay-view/">Property
+                                        Layout Minimal</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/property/luxury-villa-with-pool/">Property
+                                        Layout Boxed</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-white dropdown-toggle"
+                                href="#Realtor" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-info-circle"></i> Realtor
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="Agents.html">Agents</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/agent/michelle-ramirez/">Agent
+                                        Profile</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/agencies/">Agencies</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://demo02.houzez.co/agency/all-american-real-estate/">Agency
+                                        Profile</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-white dropdown-toggle"
+                                href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Others
+                            </a>
+                            <ul class="dropdown-menu"
+                                aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="about.html">About</a></li>
+                                <li><a class="dropdown-item"
+                                        href="inquiry.html">Inquiry
+                                        Form</a></li>
+                                <li><a class="dropdown-item"
+                                        href="contact.html">Contact</a></li>
+                                <li><a class="dropdown-item"
+                                        href="FAQ.html">FAQ</a></li>
+                                <li><a class="dropdown-item"
+                                        href="Typography.html">Typography</a></li>
+                                <li><a class="dropdown-item"
+                                        href="Page 404.html">Page
+                                        404</a></li>
+                                <li><a class="dropdown-item"
+                                        href="Blog.html">Blog</a></li>
+
+                                <!-- Residential Dropdown -->
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle"
+                                        href="https://demo02.houzez.co/property-type/residential/"
+                                        id="residentialDropdown" role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Residential
+                                    </a>
+                                    <ul class="dropdown-menu"
+                                        aria-labelledby="residentialDropdown">
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/property-type/apartment/">Apartment</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/property-type/single-family-home/">Single
+                                                Family Home</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/property-type/villa/">Villa</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/property-type/studio/">Studio</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/property-type/condo/">Condo</a></li>
+                                    </ul>
+                                </li>
+
+                                <!-- Commercial Dropdown -->
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle"
+                                        href="https://demo02.houzez.co/property-type/commercial/"
+                                        id="commercialDropdown" role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Commercial
+                                    </a>
+                                    <ul class="dropdown-menu"
+                                        aria-labelledby="commercialDropdown">
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/property-type/office/">Office</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://demo02.houzez.co/property-type/shop/">Shop</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-white dropdown-toggle"
+                                href="#contact" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-phone"></i> (808) 987 6543
+                            </a>
+                        </li>
+
+                    </ul>
+                    <button class="btn btn-primary ms-3" type="button">Create a
+                        Listing</button>
+                </div>
+            </div>
+        </nav>
+
+        <section id="desktop-header-search"
+            class="advanced-search advanced-search-nav mt-3"
+            data-hidden="0" data-sticky="1">
+            <div class="container">
+                <form class="houzez-search-form-js" method="get"
+                    autocomplete="off">
+                    <div class="advanced-search-v3">
+                        <div class="d-flex flex-wrap">
+                            <div class="flex-search flex-grow-1 mb-3 me-2">
+                                <div class="form-group">
+                                    <div class="search-icon">
+                                        <input name="keyword" type="text"
+                                            class="form-control"
+                                            placeholder="Enter Keyword..."
+                                            style="padding: 4px 40px; background-color: #FFFFFF; border-color: #979ca282">
+                                        <div id="auto_complete_ajax"
+                                            class="auto-complete"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Added dropdown for categories -->
+                            <div class="flex-search mb-3 me-2">
+                                <select class="form-select" name="category[]"
+                                    style="padding: 4px 40px; background-color: #FFFFFF; border-color: #979ca282;">
+                                    <option>All Categories</option>
+                                    <option>Category 1</option>
+                                    <option>Category 2</option>
+                                </select>
+                            </div>
+
+                            <div class="flex-search mb-3 me-2">
+                                <select class="form-select" name="category[]"
+                                    style="padding: 4px 40px; background-color: #FFFFFF; border-color: #979ca282;">
+                                    <option>All Cities</option>
+                                    <option>City 1</option>
+                                    <option>City 2</option>
+                                </select>
+                            </div>
+
+                            <div class="flex-search mb-3">
+                                <button type="submit"
+                                    class="btn btn-warning text-white w-100"
+                                    style="background-color: #FF6E00; border-color: #FF6E00; padding: 4px 50px;">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <div class="page-title-wrap container py-3">
+            <div class="breadcrumb-wrap mb-3">
+                <nav>
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item">
+                            <i class="houzez-icon icon-house me-1"></i>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="breadcrumb-item active">Agents</li>
+                    </ol>
+                </nav>
+            </div>
+            <!-- breadcrumb-wrap -->
+            <div class="d-flex align-items-center">
+                <div class="page-title flex-grow-1">
+                    <h1 class="m-0">Agents</h1>
+                </div>
+                <!-- page-title -->
+            </div>
+            <!-- d-flex -->
+        </div>
+
+        <div class="container mt-4">
+            <div class="row">
+                <!-- Main Content Section -->
+                <div class="col-lg-8 col-md-9">
+                    <div class="content">
+                        <!-- Agent Card 1 -->
+                        <div class="card h-100 mb-4">
+                            <div class="row g-3 align-items-center">
+                                <div class="col-4">
+                                    <!-- Add padding inside the col-4 to prevent the image from touching the border -->
+                                    <div class="image-container"
+                                        style="padding: 10px;">
+                                        <img
+                                            src="https://demo02.houzez.co/wp-content/uploads/2016/02/agent-3.jpg"
+                                            class="img-fluid rounded-circle"
+                                            alt="Samuel Palmer"
+                                            style="object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <h5 class="card-title mb-1">Samuel
+                                        Palmer</h5>
+                                    <p class="mb-1 text-muted">
+                                        <strong>Company Agent</strong> at
+                                        <a
+                                            href="https://demo02.houzez.co/agency/modern-house-real-estate/"
+                                            class="text-decoration-none">Modern
+                                            House Real Estate</a>
+                                    </p>
+                                    <div class="mb-2">
+                                        <span class="text-warning">★ ★ ★ ☆
+                                            ☆</span>
+                                    </div>
+                                    <ul class="list-unstyled small mb-2">
+                                        <li><strong>Office:</strong> <a
+                                                href="tel:3214569865"
+                                                class="text-decoration-none">321
+                                                456 9865</a></li>
+                                        <li><strong>Mobile:</strong> <a
+                                                href="tel:3214569874"
+                                                class="text-decoration-none">321
+                                                456 9874</a></li>
+                                        <li><strong>Fax:</strong> <a
+                                                href="fax:8976545487"
+                                                class="text-decoration-none">897
+                                                654 5487</a></li>
+                                        <li><strong>Email:</strong> <a
+                                                href="mailto:samuel@houzez.com"
+                                                class="text-decoration-none">samuel@houzez.com</a></li>
+                                    </ul>
+                                    <a href="#" class="text-success">
+                                        <i class="bi bi-whatsapp fs-5"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="text-center">
+                                <a href="#" class="btn text-primary"
+                                    style="position: relative; top:-6px;">View
+                                    Listings</a>
+                            </div>
+                        </div>
+
+                        <!-- Agent Card 2 -->
+                        <div class="card h-100 mb-4">
+                            <div class="row g-3 align-items-center">
+                                <div class="col-4">
+                                    <div class="image-container"
+                                        style="padding: 10px;">
+                                        <img
+                                            src="https://demo02.houzez.co/wp-content/uploads/2016/02/agent-4.jpg"
+                                            class="img-fluid rounded-circle"
+                                            alt="Samuel Palmer"
+                                            style="object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <h5 class="card-title mb-1">Samuel
+                                        Palmer</h5>
+                                    <p class="mb-1 text-muted">
+                                        <strong>Company Agent</strong> at
+                                        <a
+                                            href="https://demo02.houzez.co/agency/modern-house-real-estate/"
+                                            class="text-decoration-none">Modern
+                                            House Real Estate</a>
+                                    </p>
+                                    <div class="mb-2">
+                                        <span class="text-warning">★ ★ ★ ☆
+                                            ☆</span>
+                                    </div>
+                                    <ul class="list-unstyled small mb-2">
+                                        <li><strong>Office:</strong> <a
+                                                href="tel:3214569865"
+                                                class="text-decoration-none">321
+                                                456 9865</a></li>
+                                        <li><strong>Mobile:</strong> <a
+                                                href="tel:3214569874"
+                                                class="text-decoration-none">321
+                                                456 9874</a></li>
+                                        <li><strong>Fax:</strong> <a
+                                                href="fax:8976545487"
+                                                class="text-decoration-none">897
+                                                654 5487</a></li>
+                                        <li><strong>Email:</strong> <a
+                                                href="mailto:samuel@houzez.com"
+                                                class="text-decoration-none">samuel@houzez.com</a></li>
+                                    </ul>
+                                    <a href="#" class="text-success">
+                                        <i class="bi bi-whatsapp fs-5"></i>
+                                    </a>
+                                    <a href="#" class="text-primary">
+                                        <i class="bi bi-facebook fs-5"></i>
+                                    </a>
+                                    <a href="#" class="text-primary">
+                                        <i class="bi bi-twitter fs-5"></i>
+                                    </a>
+                                    <a href="#" class="text-danger">
+                                        <i class="bi bi-youtube fs-5"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="text-center">
+                                <a href="#" class="btn text-primary"
+                                    style="position: relative; top: -6px;">View
+                                    Listings</a>
+                            </div>
+
+                        </div>
+
+                        <div class="card h-100 mb-4">
+                            <div class="row g-3 align-items-center">
+                                <div class="col-4">
+                                    <div class="image-container"
+                                        style="padding: 10px;">
+                                        <img
+                                            src="https://demo02.houzez.co/wp-content/uploads/2016/02/Artboard-2team.jpg"
+                                            class="img-fluid rounded-circle"
+                                            alt="Samuel Palmer"
+                                            style="object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <h5 class="card-title mb-1">Samuel
+                                        Palmer</h5>
+                                    <p class="mb-1 text-muted">
+                                        <strong>Company Agent</strong> at
+                                        <a
+                                            href="https://demo02.houzez.co/agency/modern-house-real-estate/"
+                                            class="text-decoration-none">Modern
+                                            House Real Estate</a>
+                                    </p>
+                                    <div class="mb-2">
+                                        <span class="text-warning">★ ★ ★ ☆
+                                            ☆</span>
+                                    </div>
+                                    <ul class="list-unstyled small mb-2">
+                                        <li><strong>Office:</strong> <a
+                                                href="tel:3214569865"
+                                                class="text-decoration-none">321
+                                                456 9865</a></li>
+                                        <li><strong>Mobile:</strong> <a
+                                                href="tel:3214569874"
+                                                class="text-decoration-none">321
+                                                456 9874</a></li>
+                                        <li><strong>Fax:</strong> <a
+                                                href="fax:8976545487"
+                                                class="text-decoration-none">897
+                                                654 5487</a></li>
+                                        <li><strong>Email:</strong> <a
+                                                href="mailto:samuel@houzez.com"
+                                                class="text-decoration-none">samuel@houzez.com</a></li>
+                                    </ul>
+                                    <a href="#" class="text-success">
+                                        <i class="bi bi-whatsapp fs-5"></i>
+                                    </a>
+                                    <a href="#" class="text-primary">
+                                        <i class="bi bi-facebook fs-5"></i>
+                                    </a>
+                                    <a href="#" class="text-primary">
+                                        <i class="bi bi-twitter fs-5"></i>
+                                    </a>
+                                    <a href="#" class="text-danger">
+                                        <i class="bi bi-youtube fs-5"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="text-center">
+                                <a href="#" class="btn text-primary"
+                                    style="position: relative; top: -6px;">View
+                                    Listings</a>
+                            </div>
+                        </div>
+
+                        <div class="card h-100 mb-4">
+                            <div class="row g-3 align-items-center">
+                                <div class="col-4">
+                                    <div class="image-container"
+                                        style="padding: 10px;">
+                                        <img
+                                            src="https://demo02.houzez.co/wp-content/uploads/2016/02/agent-1-768x768.jpg"
+                                            class="img-fluid rounded-circle"
+                                            alt="Samuel Palmer"
+                                            style="object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <h5 class="card-title mb-1">Samuel
+                                        Palmer</h5>
+                                    <p class="mb-1 text-muted">
+                                        <strong>Company Agent</strong> at
+                                        <a
+                                            href="https://demo02.houzez.co/agency/modern-house-real-estate/"
+                                            class="text-decoration-none">Modern
+                                            House Real Estate</a>
+                                    </p>
+                                    <div class="mb-2">
+                                        <span class="text-warning">★ ★ ★ ☆
+                                            ☆</span>
+                                    </div>
+                                    <ul class="list-unstyled small mb-2">
+                                        <li><strong>Office:</strong> <a
+                                                href="tel:3214569865"
+                                                class="text-decoration-none">321
+                                                456 9865</a></li>
+                                        <li><strong>Mobile:</strong> <a
+                                                href="tel:3214569874"
+                                                class="text-decoration-none">321
+                                                456 9874</a></li>
+                                        <li><strong>Fax:</strong> <a
+                                                href="fax:8976545487"
+                                                class="text-decoration-none">897
+                                                654 5487</a></li>
+                                        <li><strong>Email:</strong> <a
+                                                href="mailto:samuel@houzez.com"
+                                                class="text-decoration-none">samuel@houzez.com</a></li>
+                                    </ul>
+                                    <a href="#" class="text-success">
+                                        <i class="bi bi-whatsapp fs-5"></i>
+                                    </a>
+                                    <a href="#" class="text-primary">
+                                        <i class="bi bi-facebook fs-5"></i>
+                                    </a>
+                                    <a href="#" class="text-primary">
+                                        <i class="bi bi-twitter fs-5"></i>
+                                    </a>
+                                    <a href="#" class="text-danger">
+                                        <i class="bi bi-youtube fs-5"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="text-center">
+                                <a href="#" class="btn text-primary"
+                                    style="position: relative;top: -6px;">View
+                                    Listings</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <div class="sticky-sidebar">
+                        <aside id="sidebar" class="sidebar-wrap">
+
+                            <div id="houzez_agent_search-2"
+                                class="widget widget-wrap widget-agency-search">
+                                <div class="widget-header">
+                                    <h3 class="widget-title">Find Agent</h3>
+                                </div>
+                                <div class="widget-body">
+                                    <div class="widget-content">
+                                        <form method="get" action="Agents.html">
+                                            <input type="hidden"
+                                                name="agent-search" value="yes">
+
+                                            <!-- Agent Name Input -->
+                                            <div class="mb-3">
+                                                <div class="input-group">
+                                                    <input type="text"
+                                                        class="form-control"
+                                                        name="agent_name"
+                                                        placeholder="Enter agent name">
+                                                    <span
+                                                        class="input-group-text"><i
+                                                            class="bi bi-search"></i></span>
+                                                </div>
+                                            </div>
+
+                                            <!-- Category Dropdown -->
+                                            <div class="flex-search mb-3 me-2">
+                                                <select class="form-select"
+                                                    name="category[]"
+                                                    style="padding: 4px 40px; background-color: #FFFFFF; border-color: #979ca282;">
+                                                    <option>All
+                                                        Categories</option>
+                                                    <option>Category 1</option>
+                                                    <option>Category 2</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="flex-search mb-3 me-2">
+                                                <select class="form-select"
+                                                    name="category[]"
+                                                    style="padding: 4px 40px; background-color: #FFFFFF; border-color: #979ca282;">
+                                                    <option>All Cities</option>
+                                                    <option>City 1</option>
+                                                    <option>City 2</option>
+                                                </select>
+                                            </div>
+
+                                            <!-- Submit Button -->
+                                            <button type="submit"
+                                                class="btn btn-secondary"
+                                                style="background-color: #FF6E00; border-color: #FF6E00; padding: 4px 130px;">Search
+                                                Agent</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="houzez_properties_viewed-2"
+                                class="widget widget-wrap widget-properties">
+                                <div class="widget-header">
+                                    <h3 class="widget-title">Recently
+                                        Viewed</h3>
+                                </div>
+
+                                <div class="widget-body">
+                                    <!-- Property Item 1 -->
+                                    <div class="property-item-widget mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <div
+                                                class="left-property-item-widget-wrap me-3">
+                                                <a target="_self"
+                                                    href="https://demo02.houzez.co/property/villa-for-sale/">
+                                                    <img width="70" height="70"
+                                                        src="https://demo02.houzez.co/wp-content/uploads/2016/02/101.jpg"
+                                                        class="img-fluid rounded"
+                                                        alt="Villa for Sale">
+                                                </a>
+                                            </div><!-- left-property-item-widget-wrap -->
+
+                                            <div
+                                                class="right-property-item-widget-wrap">
+                                                <h4 class="mb-0">
+                                                    <a target="_self"
+                                                        href="https://demo02.houzez.co/property/villa-for-sale/"
+                                                        class="text-decoration-none text-dark">
+                                                        Villa for Sale
+                                                    </a>
+                                                </h4>
+                                                <ul class="item-price-wrap">
+                                                    <li
+                                                        class="item-price">$1,750,000</li>
+                                                    <li
+                                                        class="item-sub-price">$7,500/sq
+                                                        ft</li>
+                                                </ul>
+                                            </div><!-- right-property-item-widget-wrap -->
+                                        </div><!-- d-flex -->
+                                    </div><!-- property-item-widget -->
+
+                                    <!-- Property Item 2 -->
+                                    <div class="property-item-widget mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <div
+                                                class="left-property-item-widget-wrap me-3">
+                                                <a target="_self"
+                                                    href="https://demo02.houzez.co/property/renovated-studio/">
+                                                    <img width="70" height="70"
+                                                        src="https://demo02.houzez.co/wp-content/uploads/2016/03/043.jpg"
+                                                        class="img-fluid rounded"
+                                                        alt="Renovated Studio">
+                                                </a>
+                                            </div><!-- left-property-item-widget-wrap -->
+
+                                            <div
+                                                class="right-property-item-widget-wrap">
+                                                <h4 class="mb-0">
+                                                    <a target="_self"
+                                                        href="https://demo02.houzez.co/property/renovated-studio/"
+                                                        class="text-decoration-none text-dark">
+                                                        Renovated Studio
+                                                    </a>
+                                                </h4>
+                                                <ul class="item-price-wrap">
+                                                    <li
+                                                        class="item-price">$540,000</li>
+                                                    <li
+                                                        class="item-sub-price">$3,700/sq
+                                                        ft</li>
+                                                </ul>
+                                            </div><!-- right-property-item-widget-wrap -->
+                                        </div><!-- d-flex -->
+                                    </div><!-- property-item-widget -->
+
+                                    <!-- Property Item 3 -->
+                                    <div class="property-item-widget mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <div
+                                                class="left-property-item-widget-wrap me-3">
+                                                <a target="_self"
+                                                    href="https://demo02.houzez.co/property/villa-with-pool/">
+                                                    <img width="70" height="70"
+                                                        src="https://demo02.houzez.co/wp-content/uploads/2016/01/103.jpg"
+                                                        class="img-fluid rounded"
+                                                        alt="Equestrian Villa">
+                                                </a>
+                                            </div><!-- left-property-item-widget-wrap -->
+
+                                            <div
+                                                class="right-property-item-widget-wrap">
+                                                <h4 class="mb-0">
+                                                    <a target="_self"
+                                                        href="https://demo02.houzez.co/property/villa-with-pool/"
+                                                        class="text-decoration-none text-dark">
+                                                        Equestrian Villa
+                                                    </a>
+                                                </h4>
+                                                <ul class="item-price-wrap">
+                                                    <li
+                                                        class="item-price">$1,599,000</li>
+                                                    <li
+                                                        class="item-sub-price">$15,000/sq
+                                                        ft</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="elementor-spaces-inner"
+                style="width: 944.8px; height: 20px;margin: 0 auto;"></div>
+            <div class="footer-top-wrap py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 mb-5">
+                            <h5 class="text-uppercase mb-4">Discover</h5>
+                            <ul class="list-unstyled mb-5">
+                                <li><a
+                                        href="https://demo02.houzez.co/city/miami/">Miami</a></li>
+                                <li><a
+                                        href="https://demo02.houzez.co/city/los-angeles/">Los
+                                        Angeles</a></li>
+                                <li><a
+                                        href="https://demo02.houzez.co/city/chicago/">Chicago</a></li>
+                                <li><a
+                                        href="https://demo02.houzez.co/city/new-york/">New
+                                        York</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <h5 class="text-uppercase mb-4">Contact Us</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-geo-alt-fill me-2"></i>774
+                                    NE 84th St Miami, FL 33879</li>
+                                <li><i class="bi bi-telephone-fill me-2"></i>879
+                                    456 1349</li>
+                                <li><i class="bi bi-envelope-fill me-2"></i><a
+                                        href="mailto:email@domain.com">[email&#160;protected]</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h5 class="text-uppercase mb-4">Newsletter</h5>
+                            <form action="#" method="POST">
+                                <div class="row g-2">
+                                    <div class="col-md-8">
+                                        <input type="email" class="form-control"
+                                            placeholder="Enter your email"
+                                            required>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button type="submit"
+                                            class="btn btn-primary w-100">Submit</button>
+                                    </div>
+                                </div>
+                                <p class="mt-3 small">Houzez is a premium
+                                    WordPress theme for Designers & Real Estate
+                                    Agents.</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-wrap py-3">
+                <div class="container d-flex flex-column align-items-center">
+                    <div class="social-links text-center mb-4">
+                        <a href class="me-3"><i class="fab fa-facebook-f"></i>
+                            Facebook</a>
+                        <a href="#" class="me-3"><i class="fab fa-twitter"></i>
+                            Twitter</a>
+                        <a href="#" class="me-3"><i
+                                class="fab fa-google-plus-g"></i> Google+</a>
+                        <a href="#" class="me-3"><i
+                                class="fab fa-linkedin-in"></i> Linkedin</a>
+                        <a href="#" class="me-3"><i
+                                class="fab fa-instagram"></i> Instagram</a>
+                        <a href="#" class="me-3"><i
+                                class="fab fa-pinterest"></i> Pinterest</a>
+                        <a href="#" class="me-3"><i class="fab fa-yelp"></i>
+                            help</a>
+                        <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+                    </div>
+                    <div class="logo text-center mb-4">
+                        <img
+                            src="https://demo02.houzez.co/wp-content/themes/houzez/img/logo-houzez-white.png"
+                            alt="Logo">
+                    </div>
+                    <div class="copyright text-center mb-4">
+                        <p class="mb-0">&copy; Houzez - All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
